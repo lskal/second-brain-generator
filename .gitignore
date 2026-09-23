@@ -1,0 +1,27 @@
+# Personal knowledge base content. The two tracked example domains remain public.
+/raw/*
+!/raw/3d-printing-example/
+!/raw/3d-printing-example/**
+!/raw/communication-example/
+!/raw/communication-example/**
+/wiki/*
+!/wiki/3d-printing-example/
+!/wiki/3d-printing-example/**
+!/wiki/communication-example/
+!/wiki/communication-example/**
+
+# Local project notes and archives
+/*.zip
+
+# Local Obsidian state and OS files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.DS_Store
+**/.DS_Store
+
+# Local dependencies and secrets
+.opencode/node_modules/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,15 @@
+.opencode/commands/brain-status.md:1790086964
+.opencode/commands/checklist-sync.md:1790087174
+.opencode/commands/coding-preferences-improve.md:1790150931
+.opencode/commands/coding-preferences.md:1790150931
+.opencode/commands/domain-close.md:1790150840
+.opencode/commands/ingest.md:1790150992
+.opencode/commands/lint.md:1790150992
+.opencode/commands/maintenance.md:1790150591
+.opencode/commands/meta-check.md:1790087105
+.opencode/commands/orphans.md:1790150840
+.opencode/commands/pre-commit.md:1790086718
+.opencode/commands/promote-candidates.md:1790150840
+.opencode/commands/readme-sync.md:1790150992
+.opencode/commands/tags.md:1790087174
+.opencode/commands/wipe.md:1790151006
