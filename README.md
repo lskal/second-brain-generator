@@ -125,3 +125,5 @@ Git write commands are manual by default. OpenCode will show `git add`, `git com
 `TODO.md` is a repository task list. Its initial version is tracked, while later untracked copies are Git-ignored. OpenCode may update it only after asking for and receiving your explicit permission.
 
 This repository has no license. Use it as inspiration for your own private knowledge base.
+
+This repository is licensed under the GNU General Public License v3.0. See `LICENSE`.
