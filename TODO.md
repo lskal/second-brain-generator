@@ -12,9 +12,10 @@
 - [x] Review every public file, including the final README, rules, commands, example raw notes, and compiled wiki.
 - [x] Simplify the README command reference and remove redundant command-catalog notices.
 - [x] Restart OpenCode to load the changed command files.
-- [ ] Run `/maintenance` after the documentation and catalog changes.
-- [ ] Run `git init` manually.
-- [ ] Review `git status`, then manually stage and commit the reviewed files.
+- [x] Run `/maintenance` after the documentation and catalog changes.
+- [x] Run `git init` manually.
+- [x] Review `git status`, then manually stage and commit the reviewed files.
+- [ ] Re-add lines in gitignore
 - [ ] Add GNU GPL v3.0 and update related documentation after the first commit.
 - [ ] Create the public GitHub repository and push only after reviewing the first commit.
 
