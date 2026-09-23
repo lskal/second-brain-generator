@@ -8,8 +8,8 @@ A local-first personal knowledge base built with Markdown, Obsidian, and an AI c
 README.md               # project overview and workflow
 AGENTS.md               # rules for agents and wiki maintenance
 CODING-PREFERENCES.md   # optional personalized collaboration preferences
-commands-list.md        # generated command catalog
-TODO.md                 # permission-gated task list
+commands-list.md        # generated command catalog (Git-ignored for untracked copies)
+TODO.md                 # permission-gated task list (Git-ignored for untracked copies)
 raw/<domain>/           # immutable source notes
 wiki/<domain>/          # generated and maintained knowledge pages
   concepts/             # reusable concepts
@@ -120,6 +120,6 @@ Do not put credentials, client data, private URLs, internal hostnames, ticket id
 
 Git write commands are manual by default. OpenCode will show `git add`, `git commit`, `git push`, `git checkout`, and `git switch` commands for you to run unless you explicitly authorize automatic Git actions for the current session.
 
-`TODO.md` is a local task list. OpenCode may update it only after asking for and receiving your explicit permission.
+`TODO.md` is a repository task list. Its initial version is tracked, while later untracked copies are Git-ignored. OpenCode may update it only after asking for and receiving your explicit permission.
 
 This repository has no license. Use it as inspiration for your own private knowledge base.
