@@ -1,27 +1,25 @@
 # TODO
 
-## Publication Checklist
+## Suggested First Steps
 
-- [x] Review the two public example source domains for privacy concerns.
-- [x] Recreate the empty `wiki/` directory.
-- [x] Add `/coding-preferences-improve`, manual-by-default Git rules, and permission-request explanations.
-- [x] Ingest and lint `3d-printing-example`.
-- [x] Ingest and lint `communication-example`.
-- [x] Verify current wiki links, tags, source coverage, and activity logs.
-- [x] Check whether `CODING-PREFERENCES.md` still contains its exact generic starter text; restore it if needed.
-- [x] Review every public file, including the final README, rules, commands, example raw notes, and compiled wiki.
-- [x] Simplify the README command reference and remove redundant command-catalog notices.
-- [x] Restart OpenCode to load the changed command files.
-- [x] Run `/maintenance` after the documentation and catalog changes.
-- [x] Run `git init` manually.
-- [x] Review `git status`, then manually stage and commit the reviewed files.
-- [ ] Re-add lines in gitignore
-- [ ] Add GNU GPL v3.0 and update related documentation after the first commit.
-- [ ] Create the public GitHub repository and push only after reviewing the first commit.
+- [ ] Read `README.md` and `AGENTS.md` before adding knowledge. `raw/` notes are immutable after ingestion, and personal content must stay private.
+- [ ] Explore `3d-printing-example` and `communication-example` as public references, or remove them if they are not useful to you.
+- [ ] Review `.gitignore` and confirm new personal domains under `raw/` and `wiki/` will remain untracked.
+- [ ] Create a personal domain in `raw/<domain>/` and add Markdown source notes.
+- [ ] Run `/ingest <domain>` and explicitly approve the proposed source scope.
+- [ ] Review the generated `wiki/<domain>/sources/`, `concepts/`, and `index.md` pages in Obsidian.
+- [ ] Run `/lint <domain>` and choose which proposed corrections to apply.
+- [ ] Run `/maintenance` after ingesting or linting to refresh status and check project documentation.
+
+## Optional Setup
+
+- [ ] Run `/coding-preferences` to personalize collaboration preferences.
+- [ ] Run `/commands-list-sync` after adding or changing project commands.
+- [ ] Initialize or connect Git only when you want version control for your own changes.
 
 ## Future Work
 
-Insert here your todos to work on them later.
+Add your own tasks here as your knowledge base grows.
 
 OpenCode may add, update, or remove TODO items only after asking for and receiving explicit user permission.
 
