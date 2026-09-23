@@ -2,6 +2,7 @@
 .opencode/commands/checklist-sync.md:1790087174
 .opencode/commands/coding-preferences-improve.md:1790150931
 .opencode/commands/coding-preferences.md:1790150931
+.opencode/commands/commands-list-sync.md:1790154895
 .opencode/commands/domain-close.md:1790150840
 .opencode/commands/ingest.md:1790150992
 .opencode/commands/lint.md:1790150992

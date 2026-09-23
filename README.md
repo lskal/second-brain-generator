@@ -46,7 +46,7 @@ Restart OpenCode after changing `opencode.json`, `.opencode/commands/`, or `.ope
 ## Vault Status
 
 <!-- AUTO-GENERATED:quick-status -->
-Last checked: 2026-09-23 - 2/2 domains complete (ingest + lint).
+Last checked: 2026-09-23 - 2/2 selected domains complete (ingest + lint).
 
 | Domain | Raw sources | Source pages | Status |
 |---|---:|---:|---|
@@ -83,7 +83,34 @@ All other domains under `raw/` and `wiki/` are ignored by Git on purpose. Copy a
 
 ## OpenCode Commands
 
-Project commands live in `.opencode/commands/`. Run `/commands-list-sync` for the complete local command catalog.
+Project commands live in `.opencode/commands/`. Run `/commands-list-sync` to refresh this summary and the complete local command catalog.
+
+<!-- AUTO-GENERATED:command-summary -->
+### Daily Work
+
+- `/ingest <domain> [raw-file ...]`: Ingest unprocessed source notes for a domain or selected files after confirmation.
+- `/lint <domain|all>`: Check wiki quality and apply only confirmed fixes.
+- `/brain-status`: Report raw-source, ingest, and lint status across domains.
+
+### Diagnostics and Maintenance
+
+- `/tags <tag|stack|topic>`: Find concept pages matching a frontmatter value.
+- `/orphans <domain|all>`: Find orphaned concept pages and propose confirmed link repairs.
+- `/promote-candidates <domain>`: Find repeated inline concepts that may merit dedicated pages.
+- `/checklist-sync`: Regenerate the verification checklist from concept-page statuses.
+- `/readme-sync`: Refresh README status and verification-total blocks.
+- `/meta-check`: Check README and agent rules for workflow drift.
+
+### Other
+
+- `/wipe <domain|all>`: Delete a wiki domain or all wiki content after three confirmations.
+- `/coding-preferences`: Personalize `CODING-PREFERENCES.md` through an interview.
+- `/coding-preferences-improve`: Propose updates to personalized coding preferences.
+- `/commands-list-sync`: Regenerate the command catalog and README command summary.
+- `/domain-close <domain>`: Run the confirmed ingest and lint flows for one domain.
+- `/maintenance`: Run README sync, command catalog sync, and metadata checks together.
+- `/pre-commit`: Report domain, documentation, and Git commit readiness.
+<!-- END-AUTO:command-summary -->
 
 ## Privacy
 
