@@ -32,11 +32,13 @@ It is not a conventional production RAG system: there are no embeddings, vector 
 1. Install [OpenCode](https://opencode.ai) and [Obsidian](https://obsidian.md).
 2. Choose the model that best fits your needs and available access. This project was developed with GPT-5.6 Terra by OpenAI. You can also use models through OpenRouter, an OpenCode membership plan such as Go, or OpenAI directly. OpenCode does not recommend using an Anthropic subscription with this product.
 3. Open this folder as an Obsidian vault and as an OpenCode project.
-**3.5.** `3d-printing-example` and `communication-example` are public example domains. You can use them as references or remove them at your discretion; keep personal knowledge-base domains private by default.
 
 Git is optional. The knowledge base and its OpenCode workflows work with or without an initialized Git repository. Initialize Git only when you want version control or intend to publish the project.
 
-4. Create a domain in `raw/<domain>/` and add Markdown notes. Treat a note as immutable once it enters `raw/`.
+4. Create a domain in `raw/<domain>/` and add Markdown notes. Treat a note as immutable once it enters `raw/`. 
+
+Example: `3d-printing-example` and `communication-example` are public example domains. You can use them as references or remove them at your discretion; keep personal knowledge-base domains private by default.
+
 5. You can also export a past Claude or ChatGPT conversation with the prompt in [Importing External Chat Context](#importing-external-chat-context), then place the generated Markdown in the appropriate `raw/<domain>/` directory.
 6. Run `/ingest <domain>` in OpenCode. It proposes work before writing pages.
 7. Open `wiki/<domain>/index.md` in Obsidian and run `/lint <domain>` when the domain is mature.
